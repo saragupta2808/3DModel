@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>THREE.js</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h2 style="font-size:60px;">Click on the colors to change the color of the 3D cube</h2>
+    <!-- <canvas id="scene-canvas"></canvas>
+    <input type="button" id="button" value="Change Color" /> -->
+    <div class="controls">
+      <!-- This tray will be filled with colors via JS, and the ability to slide this panel will be added in with a lightweight slider script (no dependency used for this) -->
+       <div id="js-tray" class="tray">
+           <div id="js-tray-slide" class="tray__slide"></div>
+       </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </body>
+</html>
